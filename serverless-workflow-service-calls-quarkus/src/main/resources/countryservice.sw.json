@@ -55,7 +55,7 @@
       "choices": [
         {
           "path": "$.population",
-          "value": "20000000",
+          "value": "10000000",
           "operator": "LessThan",
           "transition": {
             "nextState": "ClassifyAsSmallOrMedium"
@@ -63,7 +63,7 @@
         },
         {
           "path": "$.population",
-          "value": "20000000",
+          "value": "10000000",
           "operator": "GreaterThanEquals",
           "transition": {
             "nextState": "ClassifyAsLarge"
